@@ -18,6 +18,7 @@ BuildRequires:	pkgconfig(Qt5Concurrent)
 BuildRequires:	pkgconfig(Qt5OpenGL)
 BuildRequires:	pkgconfig(Qt5QuickControls2)
 BuildRequires:	pkgconfig(Qt5Svg)
+BuildRequires:  pkgconfig(gstreamer-1.0)
 
 %description
 Full featured and multiplatform webcam suite.
