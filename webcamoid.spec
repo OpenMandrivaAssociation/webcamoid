@@ -13,6 +13,7 @@ Group:		Video
 Url:		https://github.com/webcamoid/webcamoid
 Source0:	https://github.com/webcamoid/webcamoid/archive/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	cmake
+BuildRequires:  qmake5
 BuildRequires:	pkgconfig(libpipewire-0.3)
 BuildRequires:	pkgconfig(Qt5Concurrent)
 BuildRequires:	pkgconfig(Qt5OpenGL)
