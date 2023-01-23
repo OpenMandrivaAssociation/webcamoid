@@ -16,6 +16,7 @@ BuildRequires:	cmake
 BuildRequires:  qmake5
 BuildRequires:	pkgconfig(libpipewire-0.3)
 BuildRequires:	pkgconfig(Qt5Concurrent)
+BuildRequires:  pkgconfig(Qt5DBus)
 BuildRequires:	pkgconfig(Qt5OpenGL)
 BuildRequires:	pkgconfig(Qt5QuickControls2)
 BuildRequires:	pkgconfig(Qt5Svg)
