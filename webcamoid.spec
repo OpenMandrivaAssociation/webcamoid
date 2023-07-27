@@ -36,7 +36,7 @@ Full featured and multiplatform webcam suite.
 %{_iconsdir}/hicolor/*/apps/%{name}.png
 %{_iconsdir}/hicolor/scalable/apps/%{name}.svg
 %{_libdir}/avkys
-%{_mandir}/%{name}.1.*
+#{_mandir}/%{name}.1.*
 
 #----------------------------------------------------------------------------
 
