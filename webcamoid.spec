@@ -33,10 +33,11 @@ Full featured and multiplatform webcam suite.
 %license COPYING
 %{_bindir}/%{name}
 %{_datadir}/applications/%{name}.desktop
+%{_datadir}/metainfo/io.github.webcamoid.Webcamoid.metainfo.xml
 %{_iconsdir}/hicolor/*/apps/%{name}.png
 %{_iconsdir}/hicolor/scalable/apps/%{name}.svg
 %{_libdir}/avkys
-#{_mandir}/%{name}.1.*
+%{_mandir}/man1/webcamoid.1.*
 
 #----------------------------------------------------------------------------
 
