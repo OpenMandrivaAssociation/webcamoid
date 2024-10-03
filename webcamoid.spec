@@ -6,20 +6,20 @@
 
 Summary:	Full featured and multiplatform webcam suite
 Name:		webcamoid
-Version:	9.1.1
+Version:	9.2.3
 Release:	1
 License:	GPLv3
 Group:		Video
 Url:		https://github.com/webcamoid/webcamoid
 Source0:	https://github.com/webcamoid/webcamoid/archive/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	cmake
-BuildRequires:  qmake5
+BuildRequires:  qmake-qt6
 BuildRequires:	pkgconfig(libpipewire-0.3)
-BuildRequires:	pkgconfig(Qt5Concurrent)
-BuildRequires:  pkgconfig(Qt5DBus)
-BuildRequires:	pkgconfig(Qt5OpenGL)
-BuildRequires:	pkgconfig(Qt5QuickControls2)
-BuildRequires:	pkgconfig(Qt5Svg)
+BuildRequires:	pkgconfig(Qt6Concurrent)
+BuildRequires:  pkgconfig(Qt6DBus)
+BuildRequires:	pkgconfig(Qt6OpenGL)
+BuildRequires:	pkgconfig(Qt6QuickControls2)
+BuildRequires:	pkgconfig(Qt6Svg)
 BuildRequires:  pkgconfig(gstreamer-1.0)
 BuildRequires:  pkgconfig(libpulse)
 BuildRequires:  pkgconfig(alsa)
