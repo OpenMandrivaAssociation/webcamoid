@@ -6,20 +6,26 @@
 
 Summary:	Full featured and multiplatform webcam suite
 Name:		webcamoid
-Version:	9.1.1
+Version:	9.2.3
 Release:	1
 License:	GPLv3
 Group:		Video
 Url:		https://github.com/webcamoid/webcamoid
 Source0:	https://github.com/webcamoid/webcamoid/archive/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	cmake
-BuildRequires:  qmake5
+BuildRequires:  qmake-qt6
 BuildRequires:	pkgconfig(libpipewire-0.3)
-BuildRequires:	pkgconfig(Qt5Concurrent)
-BuildRequires:  pkgconfig(Qt5DBus)
-BuildRequires:	pkgconfig(Qt5OpenGL)
-BuildRequires:	pkgconfig(Qt5QuickControls2)
-BuildRequires:	pkgconfig(Qt5Svg)
+BuildRequires:  qt6-qtbase-theme-gtk3
+BuildRequires:	cmake(Qt6Concurrent)
+BuildRequires:  cmake(Qt6DBus)
+BuildRequires:	cmake(Qt6OpenGL)
+BuildRequires:	cmake(Qt6QuickControls2)
+BuildRequires:  cmake(Qt6Qml)
+BuildRequires:  cmake(Qt6QmlCore)
+BuildRequires:	cmake(Qt6Svg)
+BuildRequires:  cmake(Qt6Widgets)
+BuildRequires:  cmake(VulkanHeaders)
+BuildRequires:  pkgconfig(xkbcommon-x11)
 BuildRequires:  pkgconfig(gstreamer-1.0)
 BuildRequires:  pkgconfig(libpulse)
 BuildRequires:  pkgconfig(alsa)
@@ -36,7 +42,7 @@ Full featured and multiplatform webcam suite.
 %{_datadir}/metainfo/io.github.webcamoid.Webcamoid.metainfo.xml
 %{_iconsdir}/hicolor/*/apps/%{name}.png
 %{_iconsdir}/hicolor/scalable/apps/%{name}.svg
-%{_libdir}/avkys
+%{_libdir}/qt/plugins/avkys/
 %{_mandir}/man1/webcamoid.1.*
 
 #----------------------------------------------------------------------------
