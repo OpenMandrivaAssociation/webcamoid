@@ -6,7 +6,7 @@
 
 Summary:	Full featured and multiplatform webcam suite
 Name:		webcamoid
-Version:	9.2.3
+Version:	9.3.0
 Release:	1
 License:	GPLv3
 Group:		Video
