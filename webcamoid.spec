@@ -19,6 +19,7 @@ BuildRequires:	pkgconfig(libpipewire-0.3)
 BuildRequires:  qt6-qtbase-theme-gtk3
 BuildRequires:	cmake(Qt6Concurrent)
 BuildRequires:  cmake(Qt6DBus)
+BuildRequires:  cmake(Qt6Multimedia)
 BuildRequires:	cmake(Qt6OpenGL)
 BuildRequires:	cmake(Qt6QuickControls2)
 BuildRequires:  cmake(Qt6Qml)
